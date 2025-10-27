@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.shape.Rectangle;
 
+// Øvelse 2.a + 2.b 27/10/2025
 public class SquareController {
     @FXML
     private Rectangle leftSquare;

@@ -3,6 +3,7 @@ package com.workes;
 import javafx.fxml.FXML;
 import javafx.scene.shape.Circle;
 
+// Øvelse 1 27/10/2025
 public class CircleController {
     @FXML
     private Circle circle;
