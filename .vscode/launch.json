@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.workes/com.workes.App",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Run JavaFX App",
+            "request": "launch",
+            "mainClass": "com.workes.App",
+            "projectName": "cs-javafx",
+            "vmArgs": [
+                "--module-path",
+                "${workspaceFolder}/target/dependency",
+                "--add-modules",
+                "javafx.controls,javafx.fxml",
+                "--add-opens",
+                "javafx.graphics/com.sun.javafx.application=ALL-UNNAMED"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "internalConsoleOptions": "openOnSessionStart",
+            "preLaunchTask": "maven-compile"
+        },
+        {
+            "type": "java",
+            "name": "Debug JavaFX App",
+            "request": "launch",
+            "mainClass": "com.workes.App",
+            "projectName": "cs-javafx",
+            "vmArgs": [
+                "--module-path",
+                "${workspaceFolder}/target/dependency",
+                "--add-modules",
+                "javafx.controls,javafx.fxml",
+                "--add-opens",
+                "javafx.graphics/com.sun.javafx.application=ALL-UNNAMED"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "internalConsoleOptions": "openOnSessionStart",
+            "preLaunchTask": "maven-compile"
+        }
+    ]
+}
