@@ -15,8 +15,8 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         try {
-            //"circle", "squares"
-            Parent root = loadFXML("squares");
+            //"circle", "squares", "sum"
+            Parent root = loadFXML("sum");
             Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
